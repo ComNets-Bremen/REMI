@@ -1,0 +1,8 @@
+"fitting_n_with_wood.m" - fitting the values of path loss indexes n1-n4 for the new model
+			  (into the measurements for wooden wall, using WAF for wood)
+
+"RSS_calc_wood.m" -  simulation of new model for wooden wall using values obtained in "fitting_n_with_wood.m"
+
+"fitting_waf_brick.m" - fitting of WAF using path loss indexes from "fitting_n_with_wood.m"
+
+"RSS_calc_brick.m" - simulation of new model for brick wall
