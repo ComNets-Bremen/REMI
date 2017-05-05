@@ -1,0 +1,65 @@
+WOOD
+
+rssi1_packets: 30604
+rssi2_packets: 30614
+rssi3_packets: 30595
+rssi4_packets: 30586
+rssi5_packets: 30605
+
+mean_rssi1= -75.790484903934130
+mean_rssi2= -78.100574900372380
+mean_rssi3= -79.848929563654200
+mean_rssi4= -67.947655790230830
+mean_rssi5= -63.986080705767030
+
+std_rssi1= 0.6507 // in dBm ! (same as mean)
+std_rssi2= 0.4575
+std_rssi3= 0.5541
+std_rssi4= 0.2277
+std_rssi5= 0.1223
+
+epsilon1= from -75.1398 to -76.4412  // 26039 out of 30604 in the epsilon neighbourhood = 85,0836%
+epsilon2= from -77.6431 to -78.5581  // 26748 out of 30614 = 87.3718%
+epsilon3= from -79.2948 to -80.4030  // 24984 out of 30595 = 81.6604%
+epsilon4= from -67.7200 to -68.1754  // 29019 out of 30586 = 94.8767%
+epsilon5= from -63.8638 to -64.1084  // 30183 out of 30605 = 98.6211%
+
+var_rssi1= 0.423376440349736
+var_rssi2= 0.209300946713996
+var_rssi3= 0.307045578976590
+var_rssi4= 0.051829227404285
+var_rssi5= 0.014967663725567
+-----------------------------------------------------------------------------------------------------------
+
+
+BRICK
+
+rssi1_packets: 30587
+rssi2_packets: 30614
+rssi3_packets: 30395
+rssi4_packets: 30617
+rssi5_packets: 30607
+
+mean_rssi1= -70.003203975545160
+mean_rssi2= -85.923629711896520
+mean_rssi3= -82.141997038986670
+mean_rssi4= -81.799882418264360
+mean_rssi5= -68.003005848335350
+
+std_rssi1= 0.077916287335983
+std_rssi2= 0.554878650464794
+std_rssi3= 0.405802033643181
+std_rssi4= 0.416258907657784
+std_rssi5= 0.068048348461362
+
+epsilon1= from -69.9253 to -70.0811  // 30428 out of 30587 = 99.4802%
+epsilon2= from -85.3688 to -86.4785  // 22672 out of 30614 = 74.0576%
+epsilon3= from -81.7362 to -82.5478  // 26181 out of 30395 = 86.1359%
+epsilon4= from -81.3836 to -82.2161  // 24481 out of 30617 = 79.9588%
+epsilon5= from -67.9350 to -68.0711  // 30537 out of 30607 = 99.7713%
+
+var_rssi1= 0.006070947832223
+var_rssi2= 0.307890316741631
+var_rssi3= 0.164675290508941
+var_rssi4= 0.173271478204451
+var_rssi5= 0.004630577728319
